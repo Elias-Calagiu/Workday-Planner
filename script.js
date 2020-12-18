@@ -1,3 +1,5 @@
 var date = moment().format('LLLL'); 
 $("date").text((moment()));
-$("body").prepend(date);
+$("header").append(date);
+
+var months = ["January", "Februar"]
